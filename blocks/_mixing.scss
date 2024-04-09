@@ -1,0 +1,7 @@
+@mixin my_mixin($color,$font,$Pt_sans,){
+    color: $color; 
+    font-size:$font;
+    font-family:$Exo;
+    font-family:$Pt_sans ;
+
+}

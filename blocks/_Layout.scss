@@ -1,0 +1,64 @@
+.Layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 67px;
+}
+.Layout_images{
+    max-width: 1040px;
+    width: 100%;
+}
+.Layout__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:62px 140px;
+    flex-wrap: wrap;
+}
+.Layout_wrapper_tittle{
+    background-image: url(../images/why\ us.png);
+    height: 453px;
+}
+.Layout_wrapper_text{
+    font-size: 48px;
+    font-family: (Exo);
+    color: #fff;
+    position: relative;
+}
+.Layout_tittle_text{
+    display: flex;
+    max-width: 447px;
+    width: 100%;
+    height: 80px;
+    gap: 0 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.Layout_tittle_text_h{
+    font-size: 20px;
+    font-family: "Exo";
+    color: #363738;
+}
+.Layout_tittle_text_p{
+    font-family: "Pt_sans";
+    color: #6B6B6C;
+}
+
+@media only screen and (max-width:768px) {
+            .Layout{
+                display: flex;
+                max-width: 768px;
+                width: 100%;
+
+            }
+}
+@media only screen and (max-width:368px){
+
+    .Layout{
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+
+    }
+}

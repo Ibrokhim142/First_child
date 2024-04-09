@@ -1,0 +1,49 @@
+.hero{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.hero__wrapper{
+    max-width: 610px;
+    
+}
+.hero_img{
+    max-width: 768px;
+    height: 505px;
+    width: 100%;
+}
+.hero_text{
+    font-family:"Exo";
+    font-size: 52px;
+}
+.hero__text_p{
+    max-width: 5252px;
+    min-height:66px ;
+    font-family:"Pt_sans";
+    color:#6B6B6C;
+}
+.hero__text_par{
+    max-width: 105px;
+    font-family: "Pt_sans";
+    color:#363738;
+    border:none;
+    border-bottom: 3px solid #FFCE50;
+}
+
+@media only screen and (max-width: 768px){
+        .hero{
+            display: flex;
+        }
+        .hero_img{
+            max-width: 768px;
+            width: 100%;
+            min-height: 305;
+        }
+}
+@media only screen and (max-width: 368px){
+        .hero_img{
+            max-width: 368px;
+            width: 100%;
+        }
+}

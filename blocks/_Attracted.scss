@@ -1,0 +1,49 @@
+.Attracted__clients{
+    max-width:1239px;
+    width: 100%;
+    height: 917px;
+    background-color: #0B7572;
+    display: flex;
+    justify-content: center;
+    margin-top:212px ;
+}
+.Attracted__clients_img{
+    max-width: 652px;
+    height: 747px;
+    width: 100%;
+    margin-top: 85px;
+}
+.Attracted__clients_text{
+    font-size: 48px;
+    max-width: 477px;
+    width: 100%;
+    height: 109px;
+    font-family: "Exo";
+    color: #fff;
+    margin-top: 100px;
+}
+
+@media only screen and (max-width:768px) {
+    .Attracted__clients{
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .Attracted__clients_img{
+        height: 600px;
+
+    }
+}
+@media only screen and (max-width:368px){
+    .Attracted__clients{
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .Attracted__clients_img{
+        height: 400px;
+
+    }
+}
